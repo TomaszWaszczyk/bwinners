@@ -17,3 +17,21 @@ Please keep in mind that this is a high-level overview of the solution. As an en
 Although I make simplifications, I want to share my suggestions how to make the system better:
 
 - caching data to make working while application is offline
+
+# Description of the diagram
+
+Let's start from the bottom.
+
+Database - this is the central module of the system, stores information about: games, odds, bets, users
+
+Odds Microservice - pulls odds, generates results
+
+The Odds API - external odds provider, fetches odds data
+
+Betting Microservice - managing bets and user status
+
+Google Sheets Microservice - user interface integration
+
+# Database
+
+<img src="./resources/database.png"><br><br>
