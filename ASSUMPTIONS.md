@@ -14,6 +14,8 @@ Please keep in mind that this is a high-level overview of the solution. As an en
 - technical details of REST services
 - deployment and maintenance of the microservices
 - caching for fetched data to speed up the whole application
+- containerization of every microservice
+- monitoring in Prometheus
 
 Although I make simplifications, I want to share my suggestions how to make the system better:
 
