@@ -33,7 +33,7 @@ Let's start from the bottom.
 
 - Betting Microservice - managing bets and user status
 
-Google Sheets Microservice - user interface integration
+- Google Sheets Microservice - user interface integration
 
 # Database
 
